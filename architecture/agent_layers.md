@@ -1,11 +1,10 @@
 
-# 🧠 AI Agent Architecture — Layered Model
+AI Agent Architecture — Layered Model
 
 This document outlines a multi-layered architecture for an advanced AI agent. Inspired by cognitive models, it separates functionality into modules for perception, reasoning, memory, decision-making, and self-improvement.
 
----
 
-## 🧱 Layer Overview
+Layer Overview
 
 | Layer              | Role                                | Example Components              |
 |-------------------|-------------------------------------|----------------------------------|
@@ -15,9 +14,7 @@ This document outlines a multi-layered architecture for an advanced AI agent. In
 | Decision Layer     | Selects best action or response     | Reinforcement logic, policy net  |
 | Self-Improvement   | Monitors performance, retrains      | Meta-learning, gradient updates  |
 
----
-
-## 🔄 Modular Architecture Diagram
+ Modular Architecture Diagram
 
 ```
 +----------------------+
@@ -45,18 +42,14 @@ This document outlines a multi-layered architecture for an advanced AI agent. In
 +----------------------+
 ```
 
----
-
-## ⚙️ Example Implementation Ideas
+Example Implementation Ideas
 
 - **Memory**: Vector storage using FAISS or Pinecone.
 - **Reasoning**: LLM fine-tuned for deduction chains.
 - **Decision**: Reward policy system using RL (e.g., PPO, Q-learning).
 - **Self-Improvement**: Online learning / AutoML module.
 
----
-
-## 💡 Inspiration
+Inspiration
 
 - Google DeepMind's Gato / Gemini
 - Anthropic Claude modular chain
